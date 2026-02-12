@@ -1,7 +1,14 @@
-Voici le Reamdme de mon projet : 
-calculatrice-logs/
-├── calculatrice.py
-├── README.md
-├── .gitignore
-├── requirements.txt
-└── calculatrice.log   (NON versionné)
+# Calculatrice avec logs
+
+Mini-projet Python utilisant le module logging.
+
+## Fonctionnalités
+- Addition
+- Division
+- Gestion des erreurs
+- Logs enregistrés dans un fichier
+
+## Lancer le programme
+```bash
+python calculatrice.py
+```
