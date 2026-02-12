@@ -9,14 +9,14 @@ logging.basicConfig(
 logging.info("Démarrage du programme")
 
 def addition(a, b):
-    logging.info(f"Démarrage de l'addition de a={a} et b={b}")
+    logging.info(f"Démarrage de l'addition avec a={a} et b={b}")
     return a + b
 
 def division(a, b):
     if b == 0:
         logging.error("Division par 0")
         return None
-    logging.info(f"Démarrage de la division de a={a} et b={b}")
+    logging.info(f"Démarrage de la division avec a={a} et b={b}")
     return a / b
 
 x = float(input("Premier nombre : "))
